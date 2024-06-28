@@ -3,18 +3,16 @@ import json
 import math
 import time
 import sqlite3
-import requests
+import requests # type: ignore
 import hashlib
 import datetime
 import threading
 from typing import *
 from queue import Queue
-from PyQt5 import QtCore
+from PyQt5 import QtCore # type: ignore
 from sqlite3 import Error
 from threading import Thread
-from PyQt5.QtCore import pyqtSignal, QObject
-
-ALL         = 0b1111111
+import PyQt5.QtCoreALL         = 0b1111111 # type: ignore
 MESSAGES    = 0b1000000
 PICTURES    = 0b0100000
 VIDEOS      = 0b0010000
