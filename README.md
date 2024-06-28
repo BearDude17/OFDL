@@ -1,4 +1,5 @@
 # OFDL
+
 Onlyfans media downloader with graphical user interface using PyQt5.
 
 Downloads media files from *OF* (images, videos, highlights, stories)
@@ -13,31 +14,28 @@ Scroll down to the section "request headers" and everything you will need should
 
 <img src="https://raw.githubusercontent.com/Hashirama/OFDL/master/request.png">
 
-
  Copy these three values:
  <img src="https://raw.githubusercontent.com/Hashirama/OFDL/master/cookie.png">
  <img src="https://raw.githubusercontent.com/Hashirama/OFDL/master/user_agent.png">
  <img src="https://raw.githubusercontent.com/Hashirama/OFDL/master/x_bc.png">
- 
+
  and put them into the textbox displayed after you click on the buttons pointed at in the below image:
- 
+
  <img src="https://raw.githubusercontent.com/Hashirama/OFDL/master/options.png">
- 
+
  After you've added all three values, and you click the "x" button on the Options window, it should then fetch a list of your subscriptions.
 
- 
- 
- # Requirements
+# Requirements
 
 Written using Python 3.9 so use 3.9 or anything above.
 
 The only two requirements/dependencies should be requests and PyQt5.
 
-There is a "requirements.txt" file that can be used to install the dependencies at the command line: 
+There is a "requirements.txt" file that can be used to install the dependencies at the command line:
 
 <pre><code>pip3 install -r requirements.txt</code></pre>
 
-or 
+or
 
 <pre><code>pip3 install requests</code></pre>
 <pre><code>pip3 install pyqt5</code></pre>
